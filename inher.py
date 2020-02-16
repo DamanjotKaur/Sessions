@@ -15,7 +15,7 @@ obj.std1()
 
 # Ass2
 class A():
-    a=10
+    a=20
     b=20
     def func(self):
         if self.a>self.b:
