@@ -57,4 +57,21 @@ ob=A()
 age=int(input("enter the age:"))
 ob.m1(age)
 
+# Ass6
+a=[1,2,3,4,5]
+try:
+    print("Second element = %d" %(a[1]))
+    # print("Sixth element=%d"%(a[5]))
+except IndexError:
+    print("An error occured")
 
+# Ass7
+try:
+    a=5
+    if a<4:
+        b=(a/(a-3))
+        print("value of b",b)
+except(ZeroDivisionError, NameError):
+    print("Error Occurred and Handled")
+else:
+    print("value is correct")
